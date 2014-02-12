@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hangman</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/refactored.js"></script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="inner-wrapper">
+            <h1>Hangman</h1>
+            <p id="keyboard">(use keyboard to make guesses)</p>
+
+            <div id="hidden-stuff">
+
+                <div id="blanks"></div>
+
+            </div>
+
+            <div id="messages"></div>
+
+            <div id="tries"></div>
+            <div id="guessed-letters"></div>
+
+            <button id="new-game" class="btn btn-primary btn-large">play a new game</button>
+            <button id="give-up" class="btn btn-default btn-large">give up</button>
+            <button id="hint" class="btn btn-default btn-large">give me a hint!</button>
+
+            <div style="clear:both;"></div>
+
+            <div id="guy">
+                <div id="head">
+                        <div id="eyes">
+                            <img src="images/eyes.png" />
+                        </div>
+                        <div id="frown">
+                            <img src="images/frown.png" />
+                        </div>
+                        <div id="smile">
+                            <img src="images/smile.png" />
+                        </div>
+                        <div id="right-ear"></div>
+                        <div id="left-ear"></div>
+                    </div>
+                <div id="torso">
+                    <div id="left-arm"></div>
+                    <div id="right-arm"></div>
+                    <div id="left-leg"></div>
+                    <div id="right-leg"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+/*html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #FAAC58;margin:1em 0;padding:0}input,select{vertical-align:middle}
+*/
+
+
+
+body {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 42px;
+  background: #f7f7f7;
+}
+
+
+.btn {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 22px;
+}
+
+.btn-default {
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+
+h1 {
+  font-size: 72px;
+}
+
+
+#reset-button {
+  display: none;
+}
+
+#wrapper {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#inner-wrapper {
+  padding: 0 20px 20px 20px;
+  text-align:center;
+}
+
+#hidden-stuff {
+  display: none;
+}
+
+input#letter-input {
+  width:50px;
+}
+
+#messages {
+  display: none;
+  width: 60%;
+  background: #f7f7f7;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+
+#give-up {
+  display: none;
+}
+
+#guessed-letters, #tries {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#hint {
+  display: none;
+}
+
+.green-bg {
+  background: #5cb85c !important;
+  color: #fff;
+}
+
+.red-bg {
+  background: #d9534f !important;
+  color: #fff;
+}
+
+
+#torso {
+  position: relative;
+  width: 100px;
+  height: 130px;
+  background: #FAAC58;
+  z-index: 100;
+}
+
+#head {
+  position: absolute;
+  top: -55px;
+  left: 0px;
+  background: #FAAC58;
+  border-radius: 50%;
+  width: 100px;
+  height:100px;
+  z-index:9999;
+}
+
+#eyes {
+  position: absolute;
+  top: 15px;
+}
+
+#left-ear {
+  background: #FAAC58;
+  border-radius:50%;
+  height:20px;
+  width:20px;
+  position: absolute;
+  top: 50px;
+  left: -10px;
+}
+
+#right-ear {
+  background: #FAAC58;
+  border-radius:50%;
+  height:20px;
+  width:20px;
+  position: absolute;
+  top: 50px;
+  right: -10px;
+}
+
+#smile {
+  position: absolute;
+  top: 45px;
+  display:none;
+}
+
+#frown {
+  position: absolute;
+  top: 45px;
+}
+
+#left-arm {
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  top: 50px;
+  left: -35px;
+  background: #FAAC58;
+}
+
+#right-arm {
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  top: 50px;
+  right: -35px;
+  background: #FAAC58;
+}
+
+#left-leg {
+  width: 20px;
+  height: 85px;
+  position: absolute;
+  bottom: -85px;
+  left: 0;
+  background: #FAAC58;
+}
+
+#right-leg {
+  width: 20px;
+  height: 85px;
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  background: #FAAC58;
+}
+
+
+#guy {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+#keyboard {
+  display: none;
+  font-size:20px;
+}
+
+#blanks { margin: 20px 0;}
+
+
+
+
+
+
